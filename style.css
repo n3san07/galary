@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.galary {
+display: inline-block;
+    position: relative;
+    margin-left: 25vw;
+    margin-top: 10px;
+}
+.galary img {
+  width: 500px;
+  height: 350px;
+}
+
+#right{
+    position: absolute;
+  top: 50%;
+  right: 5px;
+  padding: 0px 5px;  
+    
+}
+#left{
+    position: absolute;
+  top: 50%;
+  left: 5px;
+padding: 0px 5px;  
+
+}
+#otherImgDiv img{
+    width: 110px;
+    height: 100px;
+}
+#otherImgDiv{
+    width: 100%;
+    position: fixed;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.active{
+    border: 1px solid red;
+    margin-top: -40px;
+
+}
